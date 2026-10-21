@@ -1,0 +1,78 @@
+{
+  "rows": 50,
+  "algorithms": {
+    "Kruskal": {
+      "min_time_ms": 1.114409,
+      "max_time_ms": 326.883698
+    },
+    "Prim": {
+      "min_time_ms": 3.891972,
+      "max_time_ms": 2803.125222
+    },
+    "Kosaraju": {
+      "min_time_ms": 0.769458,
+      "max_time_ms": 384.868335
+    },
+    "Kahn": {
+      "min_time_ms": 0.173407,
+      "max_time_ms": 193.37286
+    },
+    "DagShortestPath": {
+      "min_time_ms": 0.684453,
+      "max_time_ms": 416.171294
+    }
+  },
+  "slopes": {
+    "Kruskal_sparse": {
+      "edge_scans": 1.0550025108257504,
+      "comparisons": 1.1054947092418903,
+      "operations": 1.0958679136954
+    },
+    "Kruskal_dense": {
+      "edge_scans": 1.1194208225968358,
+      "comparisons": 1.0868258429081863,
+      "operations": 1.0881679317124373
+    },
+    "Prim_sparse": {
+      "edge_scans": 0.9999999999999996,
+      "comparisons": 1.109485246991443,
+      "operations": 1.102198963898587
+    },
+    "Prim_dense": {
+      "edge_scans": 1.0000000000000007,
+      "comparisons": 1.090387658592704,
+      "operations": 1.0850827213114342
+    },
+    "Kosaraju_sparse": {
+      "edge_scans": 0.9999999999999996,
+      "comparisons": null,
+      "operations": 0.9999999999999996
+    },
+    "Kosaraju_dense": {
+      "edge_scans": 1.0000000000000007,
+      "comparisons": null,
+      "operations": 1.0000000000000007
+    },
+    "Kahn_sparse": {
+      "edge_scans": 0.9999999999999996,
+      "comparisons": null,
+      "operations": 0.9999999999999996
+    },
+    "Kahn_dense": {
+      "edge_scans": 1.0,
+      "comparisons": null,
+      "operations": 1.0
+    },
+    "DagShortestPath_sparse": {
+      "edge_scans": 0.9999999999999996,
+      "comparisons": null,
+      "operations": 0.9999999999999996
+    },
+    "DagShortestPath_dense": {
+      "edge_scans": 1.0,
+      "comparisons": null,
+      "operations": 1.0
+    }
+  },
+  "tarjan_scans_per_edge": 1
+}

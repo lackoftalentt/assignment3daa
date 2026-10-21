@@ -1,0 +1,7 @@
+Author: Beibarys Balykbayev, SE-2516
+UTC: 2026-10-21T12:32:48.414891719Z
+Java: 21.0.12.1+1
+VM: OpenJDK 64-Bit Server VM
+OS: Linux amd64
+Warmups: 1; measured repetitions: 5; time statistic: median
+Fresh Random(42) for every kind/size/density; generation/validation excluded from timing.

@@ -1,0 +1,11 @@
+algorithm,graph,n,m,time_ms,dsu_ops,edge_scans,comparisons,max_depth,result
+Tarjan,directed_sparse,1000,4000,1.079275,0,4000,0,974,27
+Tarjan,directed_dense,1000,20000,0.630594,0,20000,0,1000,1
+Tarjan,directed_sparse,3162,12648,0.371510,0,12648,0,3026,137
+Tarjan,directed_dense,3162,63240,0.721050,0,63240,0,3162,1
+Tarjan,directed_sparse,10000,40000,0.824369,0,40000,0,9628,373
+Tarjan,directed_dense,10000,200000,4.087955,0,200000,0,10000,1
+Tarjan,directed_sparse,31623,126492,3.762832,0,126492,0,30436,1188
+Tarjan,directed_dense,31623,632460,33.735578,0,632460,0,31623,1
+Tarjan,directed_sparse,100000,400000,16.810155,0,400000,0,96078,3923
+Tarjan,directed_dense,100000,2000000,176.138659,0,2000000,0,100000,1
